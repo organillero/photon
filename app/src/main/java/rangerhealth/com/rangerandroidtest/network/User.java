@@ -29,4 +29,10 @@ public class User {
         return  "https://api.adorable.io/avatars/face/" + eyes[randomEye] + "/" + noses[randomNose] + "/" + mouths[randomMouth] + "/ffff66";
     }
 
+    @Override
+    public boolean equals(Object obj) {
+
+        User otherUser = (User)obj;
+        return (this.name.equals(otherUser.name) && this.avatar.equals(otherUser.avatar)) ;
+    }
 }
