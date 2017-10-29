@@ -1,4 +1,4 @@
- # Ranger Android Test
+ #Ranger Android Test
 
 This project requires Android Studio 3.0 Beta 6 to build and run. This app toggles between three lists of people. 
 
